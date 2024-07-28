@@ -1,0 +1,419 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: beige;
+}
+.page{
+    width: 62%;
+    margin: auto;
+background-color: white;
+
+}
+.main{
+    padding-left: 35px;
+    padding-bottom: 60px;
+    margin-top: 10px;
+    background-color: rgba(127, 255, 255, 0.497);
+}
+.main .grandmark{
+display: flex;
+justify-content:space-between;
+align-items: center;
+padding: 8px;
+
+}
+.main .grandmark .grand img{
+    height: 30px;
+    width: 30px;
+}
+.main .grandmark .anker{
+    margin-right: 10px;
+}
+.main .grandmark .anker a{
+ text-decoration: none;
+   margin: 7px;
+   color: black;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 10px;
+}
+button{
+    border: none;
+    color: white;
+    background-color: rgb(78, 163, 225);
+    padding: 6px 24px;
+    border-radius: 15px;
+}
+.main .career {
+    display: flex;
+    padding-top: 40px;
+}
+.main .career h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.main .career p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding-top: 16px;
+    padding-bottom: 15px;
+}
+.main .career img
+ {
+    height: 150px;
+    
+}
+.page .round {
+    display: flex;
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 25px;
+    
+}
+.page .round .icon{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-top: 30px;
+}
+.page .round .icon img{
+    height: 30px;
+    width: 30px;
+}
+.page .round p{
+    font-size: 12px;
+}
+.page .oprah{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 25px;
+    padding-top: 15%;
+    align-items: center;
+
+}
+.page .oprah .win img{
+height: 114px;
+width: 110px;
+border-radius: 50%;
+border: 3px solid rgba(245, 233, 9, 0.614);
+padding: 8px;
+
+}
+.page .oprah .para{
+    width: 250px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 54px;
+    padding: 8px;
+    box-shadow: 1px 2px 11px #e0d8d8;
+    border-radius: 4px;
+
+}
+.page .oprah .para span{
+    padding-left: 60%;
+    padding-top: 17px;
+    font-size: 12px;
+}
+.page .line{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 16%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page .line .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page .line .box .box1{
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background-color:  rgb(78, 163, 225);
+}
+.page .line .box .box2{
+    height: 3px;
+    width: 150px;
+    background-color:  rgb(78, 163, 225);
+}
+.page .gendmark, .mark{
+    display: flex;
+justify-content: space-between;
+    padding-top: 15%;
+
+padding-left: 50px;
+
+}
+
+.page .gendmark img, .mark img{
+height: 140px;
+width: 180px;
+
+}
+
+.page .gendmark .meth h3, .mark .meth h3{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 250px;
+    font-size: 16px;
+
+}
+.page .gendmark .meth p, .mark .meth p{
+    width: 200px;
+    padding-top: 10px;
+padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+  
+}
+.page .mark{
+    padding-right: 50px;
+    padding-left: 60px;
+ 
+}
+.page .mark .engine img{
+    padding-top: -30px;
+}
+.page .page2{
+    display: flex;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+   
+    padding-left: 40px;
+    padding-right: 15px;
+    justify-content: space-between;
+}
+.page .page2 .lorem{
+    display: flex;
+
+}
+
+.page .page2 .head h3  {
+
+  font-size: 12px;
+  padding-top: 20px;
+}
+.page .page2 .lorem .box3 h4{
+   font-size: 10px;
+padding-bottom: 10px;
+padding-top: 10px;
+     
+   }
+.page .page2 .lorem .box3 .box4{
+    height: 60px;
+    width:110px;
+    background-color: gray;
+}
+.page .page2 .lorem .box3 label{
+    font-size: 10px;
+    
+}
+.page .mister{
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-around;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.page .mister .grat img{
+height: 30px;
+width: 30px;
+color:  rgba(127, 255, 255, 0.497);
+padding-top: 30px;
+}
+.page .mister .mr1{
+    display: flex;
+justify-content: space-around;
+gap: 30px;
+padding-left: 40px;
+}
+.page .mister .mr1 .rajesh .name span{
+    display: block;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.page .mister .mr1 .rajesh .name  a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+padding-left: 5px;
+}
+.page .mister .mr1 .rajesh img{
+    height:80px;
+    width: 80px;
+    padding-bottom: 10px;
+    border-radius: 50%;
+}
+.page .current .current1 img{
+    height: 60px;
+    width: 40px;
+    padding-top: -10px;
+    border-radius: 50%;
+
+}
+.page .current{
+    display: flex;
+padding-top: 26px;
+
+gap: 20px;
+}
+.page .current .current1{
+    background-color: rgba(127, 255, 255, 0.497);
+  display: flex;
+
+  padding-left: 10px;
+  padding-right: 6px;
+  padding: 15px;
+  border-radius: 5px;
+
+}
+.page .current .current1 .pre{
+ 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page .current .current1 .pre h2{
+   
+  font-size: 13px; 
+  font-family: Arial, Helvetica, sans-serif; 
+}
+.page .current .current1 .pre label{
+    font-size: 8px; 
+
+  }
+  .page .current .current1 .btn button{
+    padding: 4px 8px;
+    font-size: 6px;
+    border-radius: 5px;
+
+ margin-top: 30px;
+  }
+  .page .footer{
+    background-color: rgba(127, 255, 255, 0.497);
+    text-align: center;
+    align-items: center;
+    height: 160px;
+padding-top: 20%;
+margin-top: 11%;
+margin-bottom: 20px;
+font-family: Arial, Helvetica, sans-serif; 
+
+  }
+  @media screen and (max-width: 600px){
+    .main{
+        margin: auto;
+        align-items: center;
+        text-align: center;
+        padding-top: 20px;
+        padding: 20px;
+    }
+    .main .grandmark{
+display: block;
+}
+.main .grandmark .anker {
+    padding-top: 20px; 
+}
+.main .grandmark .anker button{
+    margin-top: 10px;
+}
+.page .career{
+    display: block;
+
+}
+.main .career .guidance img{
+
+  height: 130px;
+  margin: auto;
+  padding-top: 10px;
+}
+.page .round{
+    display: block;
+    font-size: 15px;
+
+}
+.page .round .icon img{
+    height: 40px;
+    width: 40px;
+}
+.page .oprah{
+    display: block;
+
+ 
+}
+.page .oprah .para{
+    width: 210px;
+ 
+    font-size: 13px;
+}
+.page .oprah .win{
+    margin-left: 30px;
+}
+.page .gendmark{
+    display: block;
+}
+.page .gendmark .meth button{
+margin-left: 40px;
+}
+.page .mark{
+    display: block;
+}
+.page .mark button{
+    margin-left: 37px;
+}
+.page .page2{
+    display: block;
+
+}
+.page .page2 .head h3{
+    font-size: 14px;
+}
+.page .page2 .lorem .box3 h4{
+    font-size: 13px;
+    margin-left: 30px;
+}
+.page .page2 .lorem .box3 label{
+    font-size: 12px;
+    margin-left: 20px;
+   
+}
+.page .page2 .lorem{
+    display: block;
+    padding-top: 30px;
+}
+.page .page2 .lorem .box4{
+    margin: auto;
+    margin-top: 20px;
+
+}
+.page .mister{
+    display: block;
+
+  margin-left: 30px;
+}
+.page .mister .mr1{
+    display: block;
+    padding-top: 20px;
+
+}
+.page .mister .grat{
+    margin-left: 60px;
+}
+.page .current{
+    display: block;
+  gap: 10px;
+}
+.page .current .current1{
+margin: 10px;
+}
+  }
+    
+ 
